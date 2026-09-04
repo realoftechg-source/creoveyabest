@@ -19,7 +19,8 @@
     "files": ["main.js", "preload.js", "build/**"],
     "win": {
       "target": "nsis",
-      "icon": "build/icon.ico"
+      "icon": "build/icon.ico",
+      "artifactName": "CreoveyaSetup.exe"
     },
     "nsis": {
       "oneClick": false,
